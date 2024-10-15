@@ -1,0 +1,14 @@
+<div>
+    <h2>IMC Médio por Faixa de Idade</h2>
+    <table>
+      <tr>
+        <th>Faixa de Idade</th>
+        <th>IMC Médio</th>
+      </tr>
+      <tr *ngFor="let faixa of imcMedio | keyvalue">
+        <td>{{ faixa.key }}</td>
+        <td>{{ faixa.value  }}</td>
+      </tr>
+    </table>
+  </div>
+  

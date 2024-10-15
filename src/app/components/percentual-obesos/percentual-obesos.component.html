@@ -1,0 +1,14 @@
+<div>
+    <h2>Percentual de Obesos por Gênero</h2>
+    <table>
+      <tr>
+        <th>Gênero</th>
+        <th>Percentual de Obesos</th>
+      </tr>
+      <tr *ngFor="let genero of percentualObesos | keyvalue">
+        <td>{{ genero.key }}</td>
+        <td>{{ genero.value }}%</td>
+      </tr>
+    </table>
+  </div>
+  

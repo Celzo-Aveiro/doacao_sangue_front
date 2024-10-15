@@ -1,0 +1,14 @@
+<div>
+    <h2>Média de Idade por Tipo Sanguíneo</h2>
+    <table>
+      <tr>
+        <th>Tipo Sanguíneo</th>
+        <th>Média de Idade</th>
+      </tr>
+      <tr *ngFor="let tipo of mediaIdade | keyvalue">
+        <td>{{ tipo.key }}</td>
+        <td>{{ tipo.value }}</td>
+      </tr>
+    </table>
+  </div>
+  

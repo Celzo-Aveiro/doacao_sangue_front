@@ -1,0 +1,14 @@
+<div>
+    <h2>Doadores por Tipo Sanguíneo</h2>
+    <table>
+      <tr>
+        <th>Tipo Sanguíneo</th>
+        <th>Quantidade</th>
+      </tr>
+      <tr *ngFor="let tipo of doadoresPorTipo | keyvalue">
+        <td>{{ tipo.key }}</td>
+        <td>{{ tipo.value }}</td>
+      </tr>
+    </table>
+  </div>
+  

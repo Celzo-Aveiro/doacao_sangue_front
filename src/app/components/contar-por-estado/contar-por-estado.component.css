@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #ececec;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Para arredondar as bordas da tabela */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    transition: background-color 0.3s ease; /* Transição suave para efeitos */
+}
+
+th {
+    background-color: rgb(105, 105, 238); /* Azul */
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+tr{
+  background-color: rgb(173, 173, 255); /* Azul */
+
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cinza claro */
+}
+
+tr:hover {
+    background-color: #e0f7fa; /* Efeito de hover suave */
+}
+
+td {
+    color: #555; /* Cor do texto das células */
+}

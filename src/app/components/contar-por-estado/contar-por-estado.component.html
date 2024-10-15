@@ -1,0 +1,14 @@
+<div>
+    <h2>Candidatos por Estado</h2>
+    <table>
+      <tr>
+        <th>Estado</th>
+        <th>Quantidade</th>
+      </tr>
+      <tr *ngFor="let estado of candidatosPorEstado | keyvalue">
+        <td>{{ estado.key }}</td>
+        <td>{{ estado.value }}</td>
+      </tr>
+    </table>
+  </div>
+  

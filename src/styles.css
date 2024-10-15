@@ -1,0 +1,19 @@
+body {
+    position: relative; /* Required for positioning the pseudo-element */
+    margin: 0; /* Ensure no margin */
+    height: 100vh; /* Make sure the body takes up the full viewport height */
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('ruvim-noga-o0R4iqk1eRQ-unsplash.jpg');
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the background image */
+    opacity: 0.7; /* Adjust this value (0 to 1) to change visibility */
+    z-index: -1; /* Place behind the content */
+}
