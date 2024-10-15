@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  private loginUrl = 'http://localhost:8080/api/login'; // Endpoint correto
+  private loginUrl = 'https://doacaosangueapi-production.up.railway.app/api/login'; 
 
   constructor(private http: HttpClient) { }
 

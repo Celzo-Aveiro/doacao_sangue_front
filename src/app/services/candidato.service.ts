@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CandidatoService {
-  private baseUrl = 'http://localhost:8080/api/candidatos'; 
+  private baseUrl = 'https://doacaosangueapi-production.up.railway.app/api/candidatos'; 
 
   constructor(private http: HttpClient) { }
 
